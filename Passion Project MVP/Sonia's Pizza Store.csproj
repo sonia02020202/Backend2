@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Sonia_s_Pizza_Store-48501809-1e46-4f5b-8d42-4694157d234c</UserSecretsId>
+    <RootNamespace>Sonia_s_Pizza_Store</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Customers\Create.cshtml" />
+    <Content Remove="Views\Customers\Delete.cshtml" />
+    <Content Remove="Views\Customers\Edit.cshtml" />
+    <Content Remove="Views\Customers\Employees.cshtml" />
+    <Content Remove="Views\Customers\Orders.cshtml" />
+    <Content Remove="Views\Employees\Create.cshtml" />
+    <Content Remove="Views\Employees\Delete.cshtml" />
+    <Content Remove="Views\Employees\Edit.cshtml" />
+    <Content Remove="Views\Orders\Create.cshtml" />
+    <Content Remove="Views\Orders\Delete.cshtml" />
+    <Content Remove="Views\Orders\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Views\Customers\Create.cshtml" />
+    <Compile Include="Views\Customers\Delete.cshtml" />
+    <Compile Include="Views\Customers\Edit.cshtml" />
+    <Compile Include="Views\Employees\Create.cshtml" />
+    <Compile Include="Views\Employees\Delete.cshtml" />
+    <Compile Include="Views\Employees\Edit.cshtml" />
+    <Compile Include="Views\Employees\Index.cshtml" />
+    <Compile Include="Views\Orders\Create.cshtml" />
+    <Compile Include="Views\Orders\Delete.cshtml" />
+    <Compile Include="Views\Orders\Edit.cshtml" />
+    <Compile Include="Views\Orders\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8" />
+  </ItemGroup>
+
+</Project>
