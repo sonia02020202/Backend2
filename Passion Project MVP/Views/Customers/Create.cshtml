@@ -1,0 +1,29 @@
+﻿namespace Sonia_s_Pizza_Store.Views.Customers
+{
+    public class Create
+    {
+        @model Sonia_s_Pizza_Store.Models.Customer
+
+<h2>Add Customer</h2>
+
+<form asp-action="Create">
+    <label>First Name:</label>
+    <input asp-for="FirstName" required /><br />
+
+    <label>Last Name:</label>
+    <input asp-for="LastName" required /><br />
+
+    <label>Phone:</label>
+    <input asp-for="Phone" required /><br />
+
+    <label>Email:</label>
+    <input asp-for="Email" required /><br />
+
+    <label>Address:</label>
+    <input asp-for="Address" required /><br />
+
+    <button type="submit">Add Customer</button>
+</form>
+
+    }
+}

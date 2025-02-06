@@ -1,0 +1,21 @@
+﻿@model List<Sonia_s_Pizza_Store.Models.Employee>
+
+<h2>Employees</h2>
+<a asp-action="Create">Add Employee</a>
+
+<table>
+    <tr><th>ID</th><th>Name</th><th>Position</th><th>Salary</th><th>Actions</th></tr>
+    @foreach (var employee in Model)
+    {
+        <tr>
+            <td>@employee.Id</td>
+            <td>@employee.FirstName @employee.LastName</td>
+            <td>@employee.Position</td>
+            <td>@employee.Salary</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@employee.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@employee.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

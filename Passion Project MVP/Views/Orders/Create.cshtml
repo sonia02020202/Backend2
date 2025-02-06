@@ -1,0 +1,33 @@
+﻿namespace Sonia_s_Pizza_Store.Views.Orders
+{
+    public class Create
+    {
+        @model Sonia_s_Pizza_Store.Models.Order
+
+<h2>Add Order</h2>
+
+<form asp-action="Create">
+    <label>Customer Name:</label>
+    <input asp-for="CustomerName" required /><br />
+
+    <label>Items Ordered:</label>
+    <input asp-for="ItemsOrdered" required /><br />
+
+    <label>Order Date:</label>
+    <input asp-for="OrderDate" type="date" required /><br />
+
+    <label>Total Amount:</label>
+    <input asp-for="TotalAmount" required /><br />
+
+    <label>Order Status:</label>
+    <select asp-for="OrderStatus">
+        <option>Pending</option>
+        <option>Delivered</option>
+        <option>Cancelled</option>
+    </select><br />
+
+    <button type="submit">Add Order</button>
+</form>
+
+    }
+}

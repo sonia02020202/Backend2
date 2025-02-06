@@ -1,0 +1,16 @@
+﻿namespace Sonia_s_Pizza_Store.Views.Employees
+{
+    public class Delete
+    {
+        @model Sonia_s_Pizza_Store.Models.Employee
+
+<h2>Delete Employee</h2>
+<p>Are you sure you want to delete @Model.FirstName @Model.LastName?</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Confirm Delete</button>
+</form>
+
+    }
+}
