@@ -9,5 +9,10 @@ namespace Sonia_s_Pizza_Store.Data
             : base(options)
         {
         }
+        public DbSet<Customers> Customers { get; set; }
+
+        public DbSet<Employees> Employees { get; set; }
+
+        public DbSet<Orders> Orders { get; set; }
     }
 }
