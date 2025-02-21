@@ -1,43 +1,35 @@
-✔ Use of Model, View, and Controller
+✅ Use of Model, View, and Controller
 
-✔ Read, Update, and Delete functions
+✅ Read, Update, and Delete functions
 
-✔ API
+✅ API
 
-✔ Code is on GitHub
+✅ Code is on GitHub
 
-✔ Included README file
+✅ Included README file
 
-✔ Created Add, Delete, Update, and Edit buttons
+✅ Created Add, Delete, Update, and Edit buttons
 
-✔ Created forms
+✅ Created forms
 
-✔ Controllers handle form submission (POST)
+✅ Controllers handle form submission (POST)
 
-✔ Delete views show confirmation before deleting
+✅ Delete views show confirmation before deleting
 
-✔ Added summary blocks of information
+✅ Added summary blocks of information
 
-✔ Added summary blocks to describe properties and methods
+✅ Added summary blocks to describe properties and methods
 
-✔ Added forms for Customers, Employees, and Orders
+✅ Added forms for Customers, Employees, and Orders
 
-✔ Added 3 tables, ERD, and relationships (Word document)
+✅ Added 3 tables, ERD, and relationships (Word document)
 
-✔ Created views
+✅ Created views
 
-✔ Engaged with other students by asking a couple of questions about another student’s project in Padlet
+✅ Engaged with other students by asking a couple of questions about another student’s project in Padlet
 
-✔ GitHub is posted with the presentation video
+✅ GitHub is posted with the presentation video
 
-✔ Uploaded GitHub link along with the presentation video to Blackboard
-
-✔ Updated readme file
-
-
-
-
-
-
+✅ Uploaded GitHub link along with the presentation video to Blackboard
 
 
