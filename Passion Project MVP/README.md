@@ -32,4 +32,24 @@
 
 ✅ Uploaded GitHub link along with the presentation video to Blackboard
 
+API End Points:
+Customer API Methods:
+GET /api/customers: Fetch a list of all customers.
+POST /api/customers: Create a new customer.
+PUT /api/customers/{id}: Update customer details.
+DELETE /api/customers/{id}: Remove a customer.
+
+Orders API Methods:
+GET /api/orders: Fetch all orders with customer and employee details.
+POST /api/orders: Create a new order.
+PUT /api/orders/{id}: Update an order (change customer/employee).
+DELETE /api/orders/{id}: Remove an order.
+
+Employees API Methods:
+GET /api/employees: Fetch all employees.
+POST /api/employees: Create a new employee.	
+PUT /api/employees/{id}: Update employee details.
+DELETE /api/employees/{id}: Remove an employee.
+
+
 
