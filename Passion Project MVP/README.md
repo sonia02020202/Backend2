@@ -33,7 +33,7 @@
 ✅ Uploaded GitHub link along with the presentation video to Blackboard
 
 
-API End Points:
+
 
 Customer API Methods:
 
