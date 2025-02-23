@@ -36,6 +36,7 @@
 API End Points:
 
 Customer API Methods:
+
 GET /api/customers: Fetch a list of all customers.
 
 POST /api/customers: Create a new customer.
