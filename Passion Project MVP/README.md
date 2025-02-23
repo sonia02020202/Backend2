@@ -32,7 +32,9 @@
 
 ✅ Uploaded GitHub link along with the presentation video to Blackboard
 
+
 API End Points:
+
 Customer API Methods:
 GET /api/customers: Fetch a list of all customers.
 POST /api/customers: Create a new customer.
