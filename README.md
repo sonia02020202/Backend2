@@ -150,7 +150,3 @@ The application contains the following main controllers:
 - `POST /api/Users/Authenticate`
 
 
-
-
-
-
